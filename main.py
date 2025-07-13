@@ -17,6 +17,17 @@ def login(page, dp_id, username, password):
     page.query_selector(".sign-in").click()
     time.sleep(3)
 
+def logout(page):
+    try:
+        # Adjust the selectors as needed based on the site layout
+        page.click('xpath=//*[@id="navbarDropdown"]')  # Open user menu dropdown
+        time.sleep(1)
+        page.click("text=Logout")  # Click logout link/button
+        time.sleep(3)
+        neotermcolor.cprint("🔒 Logged out successfully.", "yellow")
+    except Exception as e:
+        neotermcolor.cprint(f"⚠️ Logout failed: {e}", "red")
+
 def goto_asba(page):
     page.query_selector('xpath=//*[@id="sideBar"]/nav/ul/li[8]/a').click()
     time.sleep(5)
@@ -151,6 +162,8 @@ def main():
                 neotermcolor.cprint("✅ IPO Applied Successfully!", "green")
             except Exception as e:
                 neotermcolor.cprint(f"❌ Error for {name}: {e}", "red")
+            finally:
+                logout(page)  # <-- logout after each account
 
             neotermcolor.cprint("-" * 40, "green")
             time.sleep(3)
@@ -159,5 +172,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#Goma Timalsena,10100,00776948,Sujandai123@@@,HIMALAYAN BANK LTD.,10,10486671,1234
