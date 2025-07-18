@@ -1,72 +1,12 @@
 [
     {
-        "name": "Mummy",
-        "dp_id": "10100",
-        "username": "00776948",
-        "password": "Sujandai123@@@",
-        "preferred_bank": "HIMALAYAN BANK LTD.",
-        "kitta": "10",
-        "crn": "10486671",
-        "txn_pin": "1234"
-    },
-    {
-        "name": "Sagar",
-        "dp_id": "13900",
-        "username": "237089",
-        "password": "Sujandai123@@@@",
-        "preferred_bank": "NIC ASIA BANK LIMITED",
-        "kitta": "10",
-        "crn": "288-R01412280",
-        "txn_pin": "1111"
-    },
-    {
-        "name": "Dad",
-        "dp_id": "13800",
-        "username": "646893",
-        "password": "HelloDad12345@@",
-        "preferred_bank": "NIC ASIA BANK LIMITED",
-        "kitta": "10",
-        "crn": "27-R01699290",
-        "txn_pin": "1111"
-    },
-    {
-        "name": "Bivash Rimal",
-        "dp_id": "11500",
-        "username": "75670",
-        "password": "bivashr1",
-        "preferred_bank": "LAXMI SUNRISE BANK",
-        "kitta": "10",
-        "crn": "916079",
-        "txn_pin": "1112"
-    },
-    {
-        "name": "Babita Rimal",
-        "dp_id": "11000",
-        "username": "908969",
-        "password": "bivashr1",
-        "preferred_bank": "NMB Bank",
-        "kitta": "10",
-        "crn": "S00763383101",
-        "txn_pin": "9089"
-    },
-    {
-        "name": "Bala Ram Rimal",
-        "dp_id": "12200",
-        "username": "101536",
-        "password": "bivashr1",
-        "preferred_bank": "HIMALAYAN BANK LTD.",
-        "kitta": "10",
-        "crn": "108453",
-        "txn_pin": "1112"
-    },
-    {
-        "name": "Binita Rimal",
-        "dp_id": "10700",
-        "username": "686675",
-        "password": "bivashr1",
-        "preferred_bank": "Laxmi Sunrise BANK",
-        "kitta": "10",
-        "crn": "916082",
-        "txn_pin": "1112"
+        "name": "Test User",
+        "dp_id": "13000",
+        "username": "00987654",
+        "password": "FakePass123!@#",
+        "preferred_bank": "CITIZENS BANK INTERNATIONAL LTD.",
+        "kitta": "20",
+        "crn": "12345678",
+        "txn_pin": "4321"
     }
 ]
