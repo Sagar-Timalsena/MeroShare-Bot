@@ -5,7 +5,7 @@
 [![Playwright](https://img.shields.io/pypi/v/playwright.svg)](https://pypi.python.org/pypi/playwright)
 [![License Badge](https://img.shields.io/github/license/tprototype/meroshare-bot?color=2b9348)](https://github.com/tprototype/meroshare-bot/blob/master/README.md)
 [![Releases](https://img.shields.io/badge/version-0.0.1-blue)](https://github.com/tprototype/meroshare-bot/releases)
-
+<img src="https://komarev.com/ghpvc/?username=Sagar-Timalsena&label=Repo%20views&color=brightgreen&style=flat&repo=MeroShare-Bot" alt="Repo views" />
 </div>
 
 
@@ -19,28 +19,48 @@ And you can simply run the main.py file. But before that you need to setup the e
 ### 1. Install the dependencies
 
 ```
+pip install --upgrade pip
+
 pip install -r requirments.txt
 # or
 python3 -m pip install -r requirements.txt
 ```
 
-### 2. Run following code in the terminal
+### 🌐 2. Run following code in the terminal
 
 ```
+pip install playwright
 playwright install chromium
-```
-
-### 3. Edit demats.txt file to setup your information in the serial order as given
 
 ```
-Name,CapitalID,Username,Password,Bank Name,Kitta,CRN,TXN_PIN
 
-For example:
-Ram,13700,0124525,password123,NIC ASIA BANK LTD.,10,JYU8281811,1234
+### 📝 3. Edit demats.json file to setup your information in the serial order as given
 
-"Ram" here is just a placeholder to denote the account, it can be anything you like
+```
+[
+  {
+    "name": "Ram Bahadur",
+    "dp_id": "130123",
+    "username": "ram123",
+    "password": "ram@123",
+    "preferred_bank": "NMB BANK LTD.",
+    "kitta": "10",
+    "crn": "CRN12345678",
+    "txn_pin": "1111"
+  },
+  {
+    "name": "Sita Kumari",
+    "dp_id": "130456",
+    "username": "sita456",
+    "password": "sita@456",
+    "preferred_bank": "NIC ASIA BANK LTD.",
+    "kitta": "20",
+    "crn": "CRN87654321",
+    "txn_pin": "2222"
+  }
+  ]
 
-Bank Name can be : "NIC ASIA BANK LTD.", "Nabil Bank Limited.", "CIVIL BANK LTD.", "Nepal Investment Bank Ltd." ,"GARIMA BIKAS BANK LTD.", "NMB BANK LTD." (i.e Official Name)
+
 ```
 
 ### 4. Now just run main.py file to run the script
@@ -51,8 +71,5 @@ python main.py
 python3 main.py
 ```
 
-### Please :star: Star us on GitHub — it motivates us a lot!
-
-### You can raise issues or send message to ask if there is any problem you faced in any step
-### And suggestion are welcome :)
-
+### 🌟 Support the Project
+If you find this project helpful, consider giving it a ⭐ on GitHub to show your support!
